@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navigation">
+            <a class="module_nav" href="#What_is_JS">Что такое JS?</a>
+            <a class="module_nav" href="#Why_do_I_need_JS">Зачем нужен JS?</a>
+            <a class="module_nav" href="#limitations_JS">Ограничения JS</a>
+            <a class="module_nav" href="#tasks">Задачки</a>
+        </nav>
+        <div id="salutation">
+            <p id="salutation_text">Добро пожаловать!</p>
+        </div>
+    </header>
+    <div id="banner">
+        <div id="banner_text">
+            <h1>Javascript</h1>
+            <div id="banner_text_second_string">
+                <h2 class="text_banner_white">один из самых</h2>
+                <h2 class="text_banner_yellow"> популярных </h2>
+                <h2 class="text_banner_white">языков программирования</h2>
+            </div>
+        </div>
+    </div>
+    <div class="block_information" id="What_is_JS">
+        <div class="block_information_image">
+            <p><a name="What_is_JS"></a></p>
+            <img class="img_block" src="Images/point1.png" alt="Что такое JS?">
+        </div>
+        <div class="block_information_text">
+            <h3>Что такое Javascript?</h3>
+            <p class="block_information_text_main"><span>Javascript</span> - язык программирования. Описывает поведение
+                элементов веб-страницы или браузера.</p>
+            <div class="block_information_text_modul">
+                <p class="moduls" id="html">Html</p>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information"> - язык разметки, на котором
+                        строится каркас сайта</p>
+                </div>
+            </div>
+            <div class="block_information_text_modul">
+                <p class="moduls" id="css">CSS</p>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information"> - язык стилей. Делает сайт
+                        красивым и красочным</p>
+                </div>
+            </div>
+            <div class="block_information_text_modul">
+                <p class="moduls" id="js">JS</p>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information"> - наполняет сайт функционалом.
+                        Благодаря ему вы</p>
+                    <p class="block_information_text_main" class="modul_information"> видите именно ваше имя в
+                        приветствии</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block_information" id="Why_do_I_need_JS">
+        <div class="block_information_text">
+            <h3>Для чего используют Javascript?</h3>
+            <div class="ul_why_need_js">
+                <div class="image_icon">
+                    <img id="galka" src="Images/icon_1.svg" alt="icon">
+                </div>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information" id="ul_text">Взаимодействие с
+                        пользователем веб-приложения</p>
+                    <p class="ul_text_small">Всплывающие окна с заполнением данных или уведомлениями</p>
+                </div>
+            </div>
+            <div class="ul_why_need_js">
+                <div class="image_icon">
+                    <img id="galka" src="Images/icon_1.svg" alt="icon">
+                </div>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information" id="ul_text">Обработка данных</p>
+                    <p class="ul_text_small">Помогает заполнить необходмые поля, осуществляет валидацию (проверка
+                        буквенных и числовых значений, введенных пользователем), управляет блоками HTML (скрытые тексты,
+                        выдвижное меню)</p>
+                </div>
+            </div>
+            <div class="ul_why_need_js">
+                <div class="image_icon">
+                    <img id="galka" src="Images/icon_1.svg" alt="icon">
+                </div>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information" id="ul_text">Анимация</p>
+                    <p class="ul_text_small">Движущиеся кнопки, карусель в галерее</p>
+                </div>
+            </div>
+        </div>
+        <div class="block_information_image">
+            <p><a name="Why_do_I_need_JS"></a></p>
+            <img class="img_block" id="img_hiden" src="Images/point2.png" alt="Зачем нужен JS?">
+        </div>
+    </div>
+
+    <div class="block_information" id="limitations_JS">
+        <div class="block_information_image">
+            <p><a name="limitations_JS"></a></p>
+            <img class="img_block" src="Images/point3.png" alt="Ограничения JS?">
+        </div>
+        <div class="block_information_text">
+            <h3>Ограничения Javascript</h3>
+            <div class="ul_why_need_js">
+                <div class="image_icon">
+                    <img id="galka" src="Images/icon_2.svg" alt="icon">
+                </div>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information">JS не умеет читать, записывать или
+                        запускать файлы напрямую с устройства</p>
+                </div>
+            </div>
+            <div class="ul_why_need_js">
+                <div class="image_icon">
+                    <img id="galka" src="Images/icon_2.svg" alt="icon">
+                </div>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information">JS взаимодействует только с тем
+                        сервером, с которого открыта страница</p>
+                </div>
+            </div>
+            <div class="ul_why_need_js">
+                <div class="image_icon">
+                    <img id="galka" src="Images/icon_2.svg" alt="icon">
+                </div>
+                <div class="moduls_text">
+                    <p class="block_information_text_main" class="modul_information">С помощью JS можно написать
+                        серверную часть (backend), но только для небольших взаимодействий, так как слишком большая
+                        логика тяжело обрабатывается и лучше воспользоваться другими языками</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block_information" id="tasks">
+        <h3 id="tasks_h3">Задачи</h3>
+        <p><a name="tasks"></a></p>
+        <button class="button_task" id="button_task_1">
+            <img src="Images/icon_3.svg" class="button_task_img" alt="плюс" style="vertical-align: middle">
+            <p class="button_task_text">Площадь треугольника</p>
+        </button>
+
+        <button class="button_task" id="button_task_2">
+            <img src="Images/icon_3.svg" class="button_task_img" alt="плюс" style="vertical-align: middle">
+            <p class="button_task_text">Сравнение строк</p>
+        </button>
+
+        <button class="button_task" id="button_task_3">
+            <img src="Images/icon_3.svg" class="button_task_img" alt="плюс" style="vertical-align: middle">
+            <p class="button_task_text">Минимальное и максимальное значение массива</p>
+        </button>
+
+        <button class="button_task" id="button_task_4">
+            <img src="Images/icon_3.svg" class="button_task_img" alt="плюс" style="vertical-align: middle">
+            <p class="button_task_text">Таймер</p>
+        </button>
+
+        <button class="button_task" id="button_task_5">
+            <img src="Images/icon_3.svg" class="button_task_img" alt="плюс" style="vertical-align: middle">
+            <p class="button_task_text">Тест про Javascript</p>
+        </button>
+
+        <button class="button_task" id="button_task_6">
+            <img src="Images/icon_3.svg" class="button_task_img" alt="плюс" style="vertical-align: middle">
+            <p class="button_task_text">Что-то интересное</p>
+        </button>
+    </div>
+
+    <div id="overlay-background">
+        <div id="overlay">
+            <p class="overlay_h">Привет!</p>
+            <p class="ovetlay_text">Надеемся, ты готов узнать что такое Javascript, но для начала напиши как тебя зовут:
+            </p>
+            <input id="input_name" name="input_name" type="text" placeholder="Введи имя">
+            <button id="send_name">Продолжить</button>
+        </div>
+    </div>
+
+    <div class="board_task_background" id="task1_background">
+        <div class="board_task" id="task1">
+            <div class="task_h_flex">
+                <p class="overlay_h">Площадь треугольника</p>
+                <button class="button_close" id="close_1"><img id="galka_1" src="Images/icon_4.svg"></button>
+            </div>
+            <p class="ovetlay_text">Введи основание и высоту, чтобы мы могли посчитать площадь треугольника</p>
+            <input class="input_task" id="height_triangle" placeholder="Высота треугольника">
+            <input class="input_task" id="base_triangle" placeholder="Основание треугольника">
+            <p class="ovetlay_text" id="answer_1">Ответ: </p>
+            <button class="run_task" id="run_task_1">Запустить</button>
+            <button class="show_code" id="show_code_1">
+                <p id="show_code_1_text">Показать код</p>
+            </button>
+            <div class="div_code" id="div_code_1">
+                    
+            <pre>
+                <code>
+<p class="code">document.getElementById('run_task_1').onclick = function(){</p>
+    <p class="code" id="comment">//объявление переменных</p>
+    <p class="code">let height_triangle=Number(document.getElementById('height_triangle').value);</p>
+    <p class="code">let base_triangle=Number(document.getElementById('base_triangle').value);</p>
+    <p class="code"> </p>
+    <p class="code" id="comment">//проверка на пустые поля,отрицательные элементы, правильное преобразование из строки</p>
+    <p class="code">if(isNaN(height_triangle)||height_triangle===undefined||isNaN(base_triangle)||</p>
+        <p class="code">height_triangle===undefined||height_triangle&lt;=0||base_triangle&lt;=0){</p>
+        <p class="code">document.getElementById('answer_1').innerHTML='Неправильное заполнение полей';</p>
+        <p class="code">document.getElementById('answer_1').style.display='block';</p>
+    <p class="code">} else {</p>
+    <p class="code"> </p>          
+        <p class="code" id="comment">//расчет площади и вывод на экран</p>
+        <p class="code">let square =0.5*height_triangle*base_triangle;</p>
+        <p class="code">document.getElementById('answer_1').innerHTML='Ответ: '+square;</p>
+        <p class="code">document.getElementById('answer_1').style.display='block';</p>
+    <p class="code">}</p>
+<p class="code">}</p>
+                </code></pre>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="board_task_background" id="task2_background">
+        <div class="board_task" id="task2">
+            <div class="task_h_flex">
+                <p class="overlay_h">Сравнение строк</p>
+                <button class="button_close" id="close_2"><img id="galka_1" src="Images/icon_4.svg"></button>
+            </div>
+            <p class="ovetlay_text">Введи 2 строки, чтобы мы могли сравнить количество символов</p>
+            <input class="input_task" id="1_str" placeholder="1 строка">
+            <input class="input_task" id="2_str" placeholder="2 строка">
+            <p class="ovetlay_text" id="answer_2">Ответ: </p>
+            <button class="run_task" id="run_task_2">Запустить</button>
+            <button class="show_code" id="show_code_2">
+                <p id="show_code_2_text">Показать код</p>
+            </button>
+            <div class="div_code" id="div_code_2">
+                <pre>
+                    <code>
+<p class="code">document.getElementById('run_task_2').onclick = function(){</p>
+    <p class="code"> </p>
+    <p class="code" id="comment">//проверка на пустые поля</p>
+    <p class="code">if(document.getElementById('1_str').value===''||document.getElementById('2_str').value===''){</p>
+        <p class="code">document.getElementById('answer_2').innerHTML='Поля не заполнены';</p>
+        <p class="code">document.getElementById('answer_2').style.display='block';</p>
+    <p class="code">}else{</p>
+        <p class="code" id="comment">//функция .length помогает узнать длину строки</p>
+        <p class="code">if(document.getElementById('1_str').value.length===document.getElementById('2_str').value.length){</p>
+            <p class="code">document.getElementById('answer_2').innerHTML='Ответ: true';</p>
+            <p class="code">document.getElementById('answer_2').style.display='block';</p>
+        <p class="code">} else {</p>
+            <p class="code">document.getElementById('answer_2').innerHTML='Ответ: false';</p>          
+            <p class="code">document.getElementById('answer_2').style.display='block';</p>
+        <p class="code">}</p>
+    <p class="code">}</p>
+<p class="code">}</p>
+                    </code></pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="board_task_background" id="task3_background">
+        <div class="board_task" id="task3">
+            <div class="task_h_flex">
+                <p class="overlay_h">Максимальное и минимальное значения массива</p>
+                <button class="button_close" id="close_3"><img id="galka_1" src="Images/icon_4.svg"></button>
+            </div>
+            <p class="ovetlay_text">Введи 5 элементов массива(через пробел), чтобы мы могли найти максимальный и минимальный элементы
+                массива</p>
+            <input class="input_task" id="array" placeholder="Массив из 5 элементов">
+            <p class="ovetlay_text" id="answer_3">Ответ: </p>
+            <button class="run_task" id="run_task_3">Запустить</button>
+            <button class="show_code" id="show_code_3">
+                <p id="show_code_3_text">Показать код</p>
+            </button>
+            <div class="div_code" id="div_code_3">
+                <pre>
+                    <code>
+<p class="code">function checkForNaN(array){</p>
+    <p class="code">for(let i=0;i&lt;array.length;i++){</p>
+        <p class="code">array[i]=Number(array[i]);</p>
+        <p class="code">if(isNaN(array[i])) return true;</p>
+    <p class="code">}</p>
+    <p class="code">return false;</p>
+<p class="code">}</p>
+    <p class="code"> </p>
+<p class="code">function findMax(array){</p>
+    <p class="code">max=array[0];</p>
+    <p class="code">for(let i=1;i&lt;array.length;i++){</p>
+        <p class="code">if(max&lt;array[i])max=array[i];</p>
+    <p class="code">}</p>
+    <p class="code">return max;</p>
+<p class="code">}</p>
+    <p class="code"> </p>
+<p class="code">document.getElementById('run_task_3').onclick = function(){</p>
+    <p class="code" id="comment">//Объявление переменных</p>
+    <p class="code">let arr = new Array();</p>
+    <p class="code">let string = document.getElementById('array').value;</p>
+    <p class="code">let max;</p>
+    <p class="code"> </p>
+    <p class="code" id="comment">//преобразование строки в массив</p>
+    <p class="code">arr=string.split(' ',5);</p>
+    <p class="code"> </p>
+    <p class="code" id="comment">//проверка на количество элементов</p>
+    <p class="code">if(arr.length&lt;5){</p>
+        <p class="code">document.getElementById('answer_3').innerHTML='Мало элементов в массиве';</p>
+        <p class="code">document.getElementById('answer_3').style.display='block';</p>
+    <p class="code">}else{</p>
+        <p class="code" id="comment">//проверка на присутствие элементов помимо чисел в массиве(функция проверки checkForNaN() выше)</p>
+        <p class="code">if(checkForNaN(arr)){</p>
+            <p class="code">document.getElementById('answer_3').innerHTML='В массиве могут быть только числа';</p>
+            <p class="code">document.getElementById('answer_3').style.display='block';</p>
+        <p class="code">}else{</p>
+            <p class="code" id="comment">//вывод наибольшего элемента в масссиве функция findMax()</p>
+            <p class="code">document.getElementById('answer_3').innerHTML='Наибольший элемент массива:'+findMax(arr);</p>
+            <p class="code">document.getElementById('answer_3').style.display='block';</p>
+        <p class="code">}</p>
+    <p class="code">}</p>
+<p class="code">}</p>
+            </code></pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="board_task_background" id="task4_background">
+        <div class="board_task" id="task4">
+            <div class="task_h_flex">
+                <p class="overlay_h">Таймер</p>
+                <button class="button_close" id="close_4"><img id="galka_1" src="Images/icon_4.svg"></button>
+            </div>
+            <h3 id="timer">00:00:00</h3>
+            <button class="run_task" id="run_task_4">Запустить</button>
+            <button class="show_code" id="stop_task_4">
+                <p>Сбросить</p>
+            </button>
+            <button class="show_code" id="show_code_4">
+                <p id="show_code_4_text">Показать код</p>
+            </button>
+            <div class="div_code" id="div_code_4">
+                
+                <pre>
+                    <code>
+<p class="code" id="comment">//Инициализация переменных флага включения, времени и таймера</p>
+<p class="code">let init;</p>
+<p class="code">let sec=0,</p>
+    <p class="code">min=0,</p>
+    <p class="code">hour=0;</p>
+<p class="code">let timer;</p>
+<p class="code"> </p>
+<p class="code" id="comment">//функция для отображния на сайте</p>
+<p class="code">function showTime(){</p>
+    <p class="code">let stringTime="";</p>
+    <p class="code">if(hour===0){</p>
+        <p class="code">stringTime+="00:";</p>
+    <p class="code">}else if(hour>0&&hour&lt;10){</p>
+        <p class="code">stringTime+="0"+hour+":";</p>
+    <p class="code">}else{</p>
+        <p class="code">stringTime+=String(hour)+":";</p>
+    <p class="code">}</p>
+    <p class="code">if(min===0){</p>
+        <p class="code">stringTime+="00:";</p>
+    <p class="code">}else if(min>0&&min&lt;10){</p>
+        <p class="code">stringTime+="0"+min+":";</p>
+    <p class="code">}else{</p>
+        <p class="code">stringTime+=String(min)+":";</p>
+    <p class="code">}</p>
+    <p class="code">if(sec===0){</p>
+        <p class="code">stringTime+="00";</p>
+    <p class="code">}else if(sec>0&&sec&lt;10){</p>
+        <p class="code">stringTime+="0"+sec;</p>
+    <p class="code">}else{</p>
+        <p class="code">stringTime+=String(sec);</p>
+    <p class="code">}</p>
+    <p class="code">document.getElementById("timer").innerHTML = stringTime;</p>
+<p class="code">}</p>
+    <p class="code"> </p>
+<p class="code" id="comment">//функция таймера</p>
+<p class="code">function tick(){</p>
+    <p class="code">sec++;</p>
+    <p class="code">if(sec===60){</p>
+        <p class="code">sec=0;</p>
+        <p class="code">min++;</p>
+    <p class="code">}</p>
+    <p class="code">if(min===60){</p>
+        <p class="code">min=0;</p>
+        <p class="code">hour++;</p>
+    <p class="code">}</p>
+    <p class="code">showTime();</p>
+<p class="code">}</p>
+    <p class="code"> </p>
+<p class="code" id="comment">//запуск таймера</p>
+<p class="code">function startTimer(){</p>
+    <p class="code">init=1;</p>
+    <p class="code">timer=setInterval(tick,1000);</p>
+<p class="code">}</p>
+    <p class="code"> </p>
+<p class="code" id="comment">//остановка таймера</p>
+<p class="code">function stopTimer(){</p>
+    <p class="code">init=0;</p>
+    <p class="code">clearInterval(timer);</p>
+<p class="code">}</p>
+<p class="code"> </p>
+<p class="code" id="comment">//сброс таймера</p>
+<p class="code">function resetTimer(){</p>
+    <p class="code">document.getElementById("timer").innerHTML="00:00:00";</p>
+    <p class="code">sec=0;</p>
+    <p class="code">min=0;</p>
+    <p class="code">hour=0;</p>
+<p class="code">}</p>
+<p class="code"> </p>
+<p class="code" id="comment">//управление таймером</p>
+<p class="code">document.getElementById("run_task_4").onclick = function(){</p>
+    <p class="code">if(init===0){</p>
+        <p class="code">startTimer();</p>
+        <p class="code">document.getElementById("run_task_4").innerHTML="Остановить";</p>
+    <p class="code">}else{</p>
+        <p class="code">stopTimer();</p>
+        <p class="code">document.getElementById("run_task_4").innerHTML="Запустить";</p>
+    <p class="code">}</p>
+<p class="code">}</p>
+    <p class="code"> </p>
+<p class="code">document.getElementById("stop_task_4").onclick = function(){</p>
+    <p class="code">resetTimer();</p>
+<p class="code">}</p>
+            </code></pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="board_task_background" id="task5_background">
+        <div class="board_task" id="task5">
+            <div class="task_h_flex">
+                <p class="overlay_h">Тест про Javascript</p>
+                <button class="button_close" id="close_5"><img id="galka_1" src="Images/icon_4.svg"></button>
+            </div>
+            <div class="test_questions">
+                <p class="ovetlay_text">1. JavaScript имеет следующий тип комментариев.</p>
+                <div class="div_value_answer">
+                    <input name="type_comments" class="radio" type="radio" value="one-line_comments">
+                    <p class="value_answer" id="one-line_comments"> Однострочные комментарии</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="type_comments" class="radio" type="radio" value="multiline_comments">
+                    <p class="value_answer" id="multiline_comments"> Многострочные комментарии</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="type_comments" class="radio" type="radio" value="all">
+                        <p class="value_answer" id="type_comments"> Все вышеперечисленное</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+                <div class="div_value_answer">
+                    <input name="type_comments" class="radio" type="radio" value="nothing">
+                    <p class="value_answer" id="nothing"> Ни один из вышеперечисленных</p>
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">2. Код JavaScript написан внутри файла с расширением</p>
+                <div class="div_value_answer">
+                    <input name="file_extension" class="radio" type="radio" value="jvs">
+                    <p class="value_answer" id="jvs"> .jvs</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="file_extension" class="radio" type="radio" value="js">
+                        <p class="value_answer" id="file_extension"> .js</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+                <div class="div_value_answer">
+                    <input name="file_extension" class="radio" type="radio" value="jsc">
+                    <p class="value_answer" id="jsc"> .jsc</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="file_extension" class="radio" type="radio" value="javascript">
+                    <p class="value_answer" id="javascript"> .javascript</p>
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">3. Операторы JavaScript выполняются</p>
+                <div class="div_value_answer">
+                    <input name="accomplishment" class="radio" type="radio" value="JVM">
+                    <p class="value_answer" id="JVM"> JVM</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="accomplishment" class="radio" type="radio" value="compiler">
+                    <p class="value_answer" id="compiler"> Компилятором</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="accomplishment" class="radio" type="radio" value="server">
+                    <p class="value_answer" id="server"> Сервером</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="accomplishment" class="radio" type="radio" value="brauser">
+                        <p class="value_answer" id="accomplishment"> Браузером</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">4. Оператор += может работать со следующими значениями данных.</p>
+                <div class="div_value_answer">
+                    <input name="operator" class="radio" type="radio" value="String">
+                    <p class="value_answer" id="String"> String</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="operator" class="radio" type="radio" value="Float">
+                    <p class="value_answer" id="Float"> Float</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="operator" class="radio" type="radio" value="Integer">
+                    <p class="value_answer" id="Integer"> Integer</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="operator" class="radio" type="radio" value="all">
+                        <p class="value_answer" id="operator"> Все вышеперечисленное</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">5. Целочисленная переменная объявляется с использованием следующего синтаксиса в
+                    JavaScript.</p>
+                <div class="div_value_answer">
+                    <input name="integer" class="radio" type="radio" value="integer">
+                    <p class="value_answer" id="integer"> integer num;</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="integer" class="radio" type="radio" value="Iinteger">
+                    <p class="value_answer" id="Iinteger"> Integer num;</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="integer" class="radio" type="radio" value="int">
+                    <p class="value_answer" id="int"> int num;</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="integer" class="radio" type="radio" value="var">
+                        <p class="value_answer" id="integer"> var num;</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">6. Во время сложения двух чисел предположим, что одно из чисел - NaN, какой
+                    будет результат?</p>
+                <div class="div_value_answer">
+                    <input name="Nan" class="radio" type="radio" value="Infinite">
+                    <p class="value_answer" id="Infinite"> Infinite</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="Nan" class="radio" type="radio" value="NaN">
+                        <p class="value_answer" id="Nan"> NaN</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+                <div class="div_value_answer">
+                    <input name="Nan" class="radio" type="radio" value="Underfined">
+                    <p class="value_answer" id="Underfined"> Underfined</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="Nan" class="radio" type="radio" value="Null">
+                    <p class="value_answer" id="Null"> Null</p>
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">7. Если строка не может быть преобразована в число, будет возвращено</p>
+                <div class="div_value_answer">
+                    <input name="NanString" class="radio" type="radio" value="Infinite1">
+                    <p class="value_answer" id="Infinite1"> Infinite</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="NanString" class="radio" type="radio" value="NaN">
+                        <p class="value_answer" id="NanString"> NaN</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+                <div class="div_value_answer">
+                    <input name="NanString" class="radio" type="radio" value="Underfined1">
+                    <p class="value_answer" id="Underfined1"> Underfined</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="NanString" class="radio" type="radio" value="Null1">
+                    <p class="value_answer" id="Null1"> Null</p>
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">8. Что из перечисленного считается концом однострочного комментария?</p>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="end_comment" class="radio" type="radio" value="end_string">
+                        <p class="value_answer" id="end_comment"> Конец строки</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+                <div class="div_value_answer">
+                    <input name="end_comment" class="radio" type="radio" value="end_instrustion">
+                    <p class="value_answer" id="end_instrustion"> Конец инструкции</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="end_comment" class="radio" type="radio" value="point_with_comma">
+                    <p class="value_answer" id="point_with_comma"> Точка с запятой</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="end_comment" class="radio" type="radio" value="nothing1">
+                    <p class="value_answer" id="nothing1"> Ни один из вышеперечисленных</p>
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">9. Какие конструкции для циклов есть в javascript?</p>
+                <div class="div_value_answer">
+                    <input name="cycle" class="radio" type="radio" value="for_while">
+                    <p class="value_answer" id="for_while"> for и while.</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="cycle" class="radio" type="radio" value="for">
+                    <p class="value_answer" id="for"> for</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="cycle" class="radio" type="radio" value="while">
+                    <p class="value_answer" id="while"> while</p>
+                </div>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="cycle" class="radio" type="radio" value="for_while_do_while">
+                        <p class="value_answer" id="cycle"> for, while и do...while.</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+            </div>
+
+            <div class="test_questions">
+                <p class="ovetlay_text">10. Сколько параметров можно передать функции?</p>
+                <div id="right_answer">
+                    <div class="div_value_answer">
+                        <input name="parametrs" class="radio" type="radio" value="equal">
+                        <p class="value_answer" id="parametrs"> Ровно столько, сколько указано в определении функции</p>
+                    </div>
+                    <img class="image_answer" src="Images/icon_1.svg" alt="правильный ответ">
+                </div>
+                <div class="div_value_answer">
+                    <input name="parametrs" class="radio" type="radio" value="less">
+                    <p class="value_answer" id="less"> Сколько указано в определении функции или меньше</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="parametrs" class="radio" type="radio" value="much">
+                    <p class="value_answer" id="much"> Сколько указано в определении функции или больше</p>
+                </div>
+                <div class="div_value_answer">
+                    <input name="parametrs" class="radio" type="radio" value="any">
+                    <p class="value_answer" id="any"> Любое количество</p>
+                </div>
+            </div>
+            <p class="ovetlay_text" id="answer_5">Твой результат: </p>
+            <button class="run_task" id="run_task_5">Проверить</button>
+            <button class="show_code" id="show_code_5">
+                <p id="show_code_5_text">Показать код</p>
+            </button>
+            <div class="div_code" id="div_code_5">
+                
+                <pre>
+                    <code>
+<p class="code" id="comment">//функция поиска нужной группы radio button</p>
+<p class="code">function isCheck(name) {</p>
+    <p class="code">return document.querySelector('input[name="' + name + '"]:checked');</p>
+<p class="code">}</p>
+<p class="code"> </p>
+<p class="code" id="comment">//функция проверки правльного ответа</p>
+<p class="code">function check(name_rad,value_rad,color){</p>
+    <p class="code">if(color==1){</p>
+        <p class="code">if(isCheck(name_rad)==null){</p>
+            <p class="code"> </p>
+        <p class="code">}else if(isCheck(name_rad).value===value_rad){</p>
+            <p class="code">document.getElementById(name_rad).style.color="#8BEF09";</p>
+            <p class="code">count++;</p>
+        <p class="code">}else{</p>
+            <p class="code">document.getElementById(isCheck(name_rad).value).style.color="#EF0909";</p>
+        <p class="code">}</p>
+    <p class="code">}else{</p>
+        <p class="code">if(isCheck(name_rad)==null){</p>
+            <p class="code"> </p>
+        <p class="code">}else if(isCheck(name_rad).value===value_rad){</p>
+            <p class="code">document.getElementById(name_rad).style.color="#100f0f83";</p>
+            <p class="code">count++;</p>
+        <p class="code">}else{</p>
+            <p class="code">document.getElementById(isCheck(name_rad).value).style.color="#100f0f83";</p>
+        <p class="code">}</p>
+    <p class="code">}</p>
+<p class="code">}</p>
+<p class="code">let count=0;</p>
+<p class="code" id="comment">//функция обработки нажатия на кнопку</p>
+<p class="code">document.getElementById("run_task_5").onclick = function(){</p>
+    <p class="code" id="comment">//проверка теста</p>
+    <p class="code">if(document.getElementById("run_task_5").innerHTML==="Проверить"){</p>
+        <p class="code">count=0;</p>
+        <p class="code">let x=document.querySelectorAll(".image_answer");</p>
+        <p class="code">for(let i=0;i&lt;x.length;i++){</p>
+            <p class="code">x[i].style.display="block";</p>
+        <p class="code">}</p>
+        <p class="code" id="comment">//1</p>
+        <p class="code">check('type_comments',"all",1);</p>
+        <p class="code">...</p>
+        <p class="code"> </p>
+        <p class="code">document.getElementById("answer_5").innerHTML="Твой результат: "+count+"/10";</p>
+        <p class="code">document.getElementById("answer_5").style.display="block";</p>
+        <p class="code">document.getElementById("run_task_5").innerHTML="Попробовать еще раз";</p>
+    <p class="code">}else{</p>
+        <p class="code" id="comment">//очистка теста</p>
+        <p class="code">count=0;</p>
+        <p class="code">let x=document.querySelectorAll(".image_answer");</p>
+        <p class="code">for(let i=0;i&lt;x.length;i++){</p>
+            <p class="code">x[i].style.display="none";</p>
+        <p class="code">}</p>
+        <p class="code" id="comment">//1</p>
+        <p class="code">check('type_comments',"all",0);</p>
+        <p class="code">...</p>
+        <p class="code"> </p>
+        <p class="code">let z=document.getElementsByClassName("radio");</p>
+        <p class="code">for(let i=0;i&lt;z.length;i++)</p>
+            <p class="code">z[i].checked = false;</p>
+        <p class="code">document.getElementById("answer_5").style.display="none";</p>
+        <p class="code">document.getElementById("run_task_5").innerHTML="Проверить";</p>
+    <p class="code">}</p>
+<p class="code">}</p>
+            </code></pre>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="board_task_background" id="task6_background">
+        <div class="board_task" id="task6">
+            <div class="task_h_flex">
+                <p class="overlay_h">Что-то интересное</p>
+                <button class="button_close" id="close_6"><img id="galka_1" src="Images/icon_4.svg"></button>
+            </div>
+            <button class="run_task" id="run_task_6">Запустить</button>
+            <button class="show_code" id="show_code_6">
+                <p id="show_code_6_text">Показать код</p>
+            </button>
+            <div class="div_code" id="div_code_6">
+                <pre>
+                    <code>
+<p class="code" id="comment">//функция для определения даты</p>
+<p class="code">function getToday(){</p>
+    <p class="code">let today = new Date();</p>
+    <p class="code">let dd = String(today.getDate()).padStart(2, '0');</p>
+    <p class="code">let mm = String(today.getMonth() + 1).padStart(2, '0');</p>
+    <p class="code">let yyyy = today.getFullYear();</p>
+    <p class="code"> </p>
+    <p class="code">today = dd + '.' + mm + '.' + yyyy;</p>
+    <p class="code">return today;</p>
+<p class="code">}</p>
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="board_task_background" id="task7_background">
+        <div id="task7_background_star"></div>
+        <div id="task7_background_text">
+            <div id="name_user">
+                <p>Имя</p>
+            </div>
+            <div id="today">
+                <p>Сегодня</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
